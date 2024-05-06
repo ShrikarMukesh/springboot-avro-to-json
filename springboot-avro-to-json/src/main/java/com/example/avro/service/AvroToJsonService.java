@@ -1,4 +1,4 @@
-package com.avrotojson.service;
+package com.example.avro.service;
 
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericDatumReader;
@@ -18,7 +18,7 @@ import java.nio.charset.StandardCharsets;
 @Service
 public class AvroToJsonService {
 
-    public String convertToJson(byte[] avroData) throws IOException {
+ //   public String convertToJson(byte[] avroData) throws IOException {
 //        Schema schema = new Schema.Parser().parse(new File("example.avsc"));
 //        DatumReader<GenericRecord> reader = new GenericDatumReader<>(schema);
 //
@@ -31,7 +31,7 @@ public class AvroToJsonService {
 //        encoder.flush();
 //
 //        return new String(out.toByteArray(), StandardCharsets.UTF_8);
-    }
+  //  }
 
 //    // Simulate Avro data (replace with your actual data source)
 //    private byte[] getAvroData() {
